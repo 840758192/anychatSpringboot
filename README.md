@@ -9,7 +9,8 @@
 7.队列，List 队列存入数据快，list取数据快，在存取消息与上线下线时充分使用了它们的特性
 8.Jdk 1.8，使用1.8新特性Lambda 表达式、集合的流式操作
 内部流程图
-
+![Image text](https://github.com/840758192/image/blob/master/2.png)
 支持群聊天，上下线，查看聊天记录，离线消息推送，踢人，拉人
 
 用户进入消息功能，从EKP获取用户信息，更新用户信息到DM数据库，更新群组信息，并将用户加入到存活容器中，通知群员已经上线
+![Image text](https://github.com/840758192/image/blob/master/1.png)
